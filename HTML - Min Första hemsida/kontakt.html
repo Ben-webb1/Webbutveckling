@@ -1,0 +1,23 @@
+<!-- Kontakt Formulär --> 
+		<h2>Kontakta Oss</h2>
+ 	<p>Fyll i formuläret nedanför för att kontakta oss!</p>
+
+ 	<!-- Man Fyller I Namn -->
+ 	<form>
+ 		Förnamn: <input type="text"> Efternman: <input type="text"><br><br/>
+      
+    <!-- Här Fyller Man I sin Email och Telefon -->
+ 	<p> Kontakta oss genom Email och Telefon </p>
+		<label for="email">E-post:</label>                            
+		<input type="email" id="email" name="email" required><br></br>
+
+		<label for="telefonnummer">Telefonnummer:</label>                                  
+		<input type="telefonnummer" id="telefonnummer" name="telefonnummer" required><br></br>
+
+		<!-- Här klickar man i en ruta önskad kontaktsätt -->
+		<label for="kontaktsätt">Önskat Kontaktsätt:</label>
+		<select id="kontaktsätt" name="kontaktsätt">
+			<option value="email-adress">E-post</option>
+			<option value="telefonnummer">Telefon</option>
+				</select><br></br>
+		        	<input type="submit" value="Skicka"
